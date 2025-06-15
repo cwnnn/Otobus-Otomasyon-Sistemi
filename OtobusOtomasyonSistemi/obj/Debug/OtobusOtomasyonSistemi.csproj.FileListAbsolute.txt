@@ -1,0 +1,96 @@
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\bin\Debug\OtobusOtomasyonSistemi.exe.config
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\bin\Debug\OtobusOtomasyonSistemi.exe
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\bin\Debug\OtobusOtomasyonSistemi.pdb
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\bin\Debug\GMap.NET.Core.dll
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\bin\Debug\Guna.UI2.dll
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.AdminArayuz._1YetkilendimeSistemi.FormCalisanYetkilendirme.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.AdminArayuz._1YetkilendimeSistemi.FormYetkilendirmeSistemi.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.AdminArayuz._5SeferYonetimi.FormSeferEkleme.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.AdminArayuz.FormAdminArayuz1.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._1seferler.FormSatinAlinacakBiletleriListele.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._1seferler.FormSatinAlmaIslemi.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormSifreYenileme.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormKoltukSecmeSayfasi.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._1seferler.FormSeferListeleme.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._2OtobusumNerede.haritaForm.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._4Giris.kEpostaOnayForm.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._4Profilim.FormProfilim.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._4Profilim.ProfilimDetay.FormBiletDetay.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._4Profilim.ProfilimDetay.FormKullaniciBiletleri.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._4Profilim.ProfilimDetay.FormKullaniciBilgierli.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormKullaniciArayuz.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYarBagaj.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYarBiletIslemleri.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYarBiletSatisN.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYarBizeUlasin.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYardimS.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYarIletisim.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYarKoltukKatag.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYarUrunVeHizmetler.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYukleme.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.kGirisForm.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.kKayitOlForm.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.kSeferAramaFormu.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.otobus40KoltukF.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.otobus46Koltuk.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.Properties.Resources.resources
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOt.900889FC.Up2Date
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.exe
+C:\Users\ASUS\Desktop\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.pdb
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.AdminArayuz._1YetkilendimeSistemi.FormCalisanYetkilendirme.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.AdminArayuz._1YetkilendimeSistemi.FormYetkilendirmeSistemi.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.AdminArayuz._5SeferYonetimi.FormSeferEkleme.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.AdminArayuz.FormAdminArayuz1.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._1seferler.FormSatinAlinacakBiletleriListele.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._1seferler.FormSatinAlmaIslemi.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormSifreYenileme.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormKoltukSecmeSayfasi.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._1seferler.FormSeferListeleme.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._2OtobusumNerede.haritaForm.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._4Giris.kEpostaOnayForm.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._4Profilim.FormProfilim.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._4Profilim.ProfilimDetay.FormBiletDetay.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._4Profilim.ProfilimDetay.FormKullaniciBiletleri.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._4Profilim.ProfilimDetay.FormKullaniciBilgierli.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormKullaniciArayuz.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYarBagaj.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYarBiletIslemleri.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYarBiletSatisN.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYarBizeUlasin.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYardimS.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYarIletisim.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYarKoltukKatag.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYarUrunVeHizmetler.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormYukleme.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.kGirisForm.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.kKayitOlForm.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.kSeferAramaFormu.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.otobus40KoltukF.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.otobus46Koltuk.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.Properties.Resources.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.exe
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.pdb
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\bin\Debug\OtobusOtomasyonSistemi.exe.config
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\bin\Debug\OtobusOtomasyonSistemi.exe
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\bin\Debug\OtobusOtomasyonSistemi.pdb
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\bin\Debug\GMap.NET.Core.dll
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\bin\Debug\Guna.UI2.dll
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOt.900889FC.Up2Date
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._1seferler.FormSatinAlmaOnaylama.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\bin\Debug\QRCoder.dll
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.FormOtobussEkleme.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.AdminArayuz._4OtobusYonetimi.FormOtobusMarkaEkle.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.KullaniciArayuz._2OtobusumNerede.FormBiletSorgu.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.AdminArayuz._7Raporlamaİstatistikler.FormIsatistikler.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.AdminArayuz._3KullaniciYönetimi.FormYolcuDuzenleme.resources
+C:\Users\ASUS\Desktop\Bitirme Projesi\OtobusOtomasyonSistemi-deneme\OtobusOtomasyonSistemi\obj\Debug\OtobusOtomasyonSistemi.AdminArayuz._3KullaniciYönetimi.FormCalisanDuzenleme.resources

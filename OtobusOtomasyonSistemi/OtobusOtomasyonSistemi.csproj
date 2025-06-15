@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8088A7F3-E0A8-4D42-8249-F7D2026CB400}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OtobusOtomasyonSistemi</RootNamespace>
+    <AssemblyName>OtobusOtomasyonSistemi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GMap.NET.Core, Version=1.7.5.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.WindowsForms.1.7.5\lib\net40\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms, Version=1.7.5.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.WindowsForms.1.7.5\lib\net40\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ububox.G2Crack.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.6.0.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.6.0\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminArayuz\1YetkilendimeSistemi\FormCalisanYetkilendirme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminArayuz\1YetkilendimeSistemi\FormCalisanYetkilendirme.Designer.cs">
+      <DependentUpon>FormCalisanYetkilendirme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArayuz\1YetkilendimeSistemi\FormYetkilendirmeSistemi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminArayuz\1YetkilendimeSistemi\FormYetkilendirmeSistemi.Designer.cs">
+      <DependentUpon>FormYetkilendirmeSistemi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArayuz\3KullaniciYönetimi\FormCalisanDuzenleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminArayuz\3KullaniciYönetimi\FormCalisanDuzenleme.Designer.cs">
+      <DependentUpon>FormCalisanDuzenleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArayuz\3KullaniciYönetimi\FormYolcuDuzenleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminArayuz\3KullaniciYönetimi\FormYolcuDuzenleme.Designer.cs">
+      <DependentUpon>FormYolcuDuzenleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArayuz\4OtobusYonetimi\FormOtobusMarkaEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminArayuz\4OtobusYonetimi\FormOtobusMarkaEkle.Designer.cs">
+      <DependentUpon>FormOtobusMarkaEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArayuz\5SeferYonetimi\FormSeferEkleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminArayuz\5SeferYonetimi\FormSeferEkleme.Designer.cs">
+      <DependentUpon>FormSeferEkleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArayuz\7Raporlamaİstatistikler\FormIsatistikler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminArayuz\7Raporlamaİstatistikler\FormIsatistikler.Designer.cs">
+      <DependentUpon>FormIsatistikler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArayuz\FormAdminArayuz1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminArayuz\FormAdminArayuz1.Designer.cs">
+      <DependentUpon>FormAdminArayuz1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArayuz\TuslariListeleme.cs" />
+    <Compile Include="AdminArayuz\4OtobusYonetimi\FormOtobussEkleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminArayuz\4OtobusYonetimi\FormOtobussEkleme.Designer.cs">
+      <DependentUpon>FormOtobussEkleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\2OtobusumNerede\FormBiletSorgu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\2OtobusumNerede\FormBiletSorgu.Designer.cs">
+      <DependentUpon>FormBiletSorgu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetotlarVeFonksiyonlar.cs" />
+    <Compile Include="KullaniciArayuz\1seferler\Biletler.cs" />
+    <Compile Include="KullaniciArayuz\1seferler\FormSatinAlinacakBiletleriListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\1seferler\FormSatinAlinacakBiletleriListele.Designer.cs">
+      <DependentUpon>FormSatinAlinacakBiletleriListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\1seferler\FormSatinAlmaIslemi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\1seferler\FormSatinAlmaIslemi.Designer.cs">
+      <DependentUpon>FormSatinAlmaIslemi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\1seferler\FormSatinAlmaOnaylama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\1seferler\FormSatinAlmaOnaylama.Designer.cs">
+      <DependentUpon>FormSatinAlmaOnaylama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Giris\FormSifreYenileme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Giris\FormSifreYenileme.Designer.cs">
+      <DependentUpon>FormSifreYenileme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalData.cs" />
+    <Compile Include="KullaniciArayuz\1seferler\FormSeferListeleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\1seferler\FormSeferListeleme.Designer.cs">
+      <DependentUpon>FormSeferListeleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\2OtobusumNerede\haritaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\2OtobusumNerede\haritaForm.Designer.cs">
+      <DependentUpon>haritaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarBiletIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarBiletIslemleri.Designer.cs">
+      <DependentUpon>FormYarBiletIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\1seferler\FormKoltukSecmeSayfasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\1seferler\FormKoltukSecmeSayfasi.Designer.cs">
+      <DependentUpon>FormKoltukSecmeSayfasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarBagaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarBagaj.Designer.cs">
+      <DependentUpon>FormYarBagaj.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarBiletSatisN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarBiletSatisN.Designer.cs">
+      <DependentUpon>FormYarBiletSatisN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarBizeUlasin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarBizeUlasin.Designer.cs">
+      <DependentUpon>FormYarBizeUlasin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\FormYardimS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\FormYardimS.Designer.cs">
+      <DependentUpon>FormYardimS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarIletisim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarIletisim.Designer.cs">
+      <DependentUpon>FormYarIletisim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarKoltukKatag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarKoltukKatag.Designer.cs">
+      <DependentUpon>FormYarKoltukKatag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarUrunVeHizmetler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarUrunVeHizmetler.Designer.cs">
+      <DependentUpon>FormYarUrunVeHizmetler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\1seferler\otobus40KoltukF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\1seferler\otobus40KoltukF.Designer.cs">
+      <DependentUpon>otobus40KoltukF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\1seferler\otobus46Koltuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\1seferler\otobus46Koltuk.Designer.cs">
+      <DependentUpon>otobus46Koltuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Giris\kEpostaOnayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Giris\kEpostaOnayForm.Designer.cs">
+      <DependentUpon>kEpostaOnayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Profilim\FormProfilim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Profilim\FormProfilim.Designer.cs">
+      <DependentUpon>FormProfilim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Profilim\ProfilimDetay\FormBiletDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Profilim\ProfilimDetay\FormBiletDetay.Designer.cs">
+      <DependentUpon>FormBiletDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Profilim\ProfilimDetay\FormKullaniciBiletleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Profilim\ProfilimDetay\FormKullaniciBiletleri.Designer.cs">
+      <DependentUpon>FormKullaniciBiletleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Profilim\ProfilimDetay\FormKullaniciBilgierli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Profilim\ProfilimDetay\FormKullaniciBilgierli.Designer.cs">
+      <DependentUpon>FormKullaniciBilgierli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\FormYukleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\FormYukleme.Designer.cs">
+      <DependentUpon>FormYukleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\FormKullaniciArayuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\FormKullaniciArayuz.Designer.cs">
+      <DependentUpon>FormKullaniciArayuz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Giris\kGirisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Giris\kGirisForm.Designer.cs">
+      <DependentUpon>kGirisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Giris\kKayitOlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\4Giris\kKayitOlForm.Designer.cs">
+      <DependentUpon>kKayitOlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciArayuz\1seferler\kSeferAramaFormu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullaniciArayuz\1seferler\kSeferAramaFormu.Designer.cs">
+      <DependentUpon>kSeferAramaFormu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="seffafLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="AdminArayuz\1YetkilendimeSistemi\FormCalisanYetkilendirme.resx">
+      <DependentUpon>FormCalisanYetkilendirme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminArayuz\1YetkilendimeSistemi\FormYetkilendirmeSistemi.resx">
+      <DependentUpon>FormYetkilendirmeSistemi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminArayuz\3KullaniciYönetimi\FormCalisanDuzenleme.resx">
+      <DependentUpon>FormCalisanDuzenleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminArayuz\3KullaniciYönetimi\FormYolcuDuzenleme.resx">
+      <DependentUpon>FormYolcuDuzenleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminArayuz\4OtobusYonetimi\FormOtobusMarkaEkle.resx">
+      <DependentUpon>FormOtobusMarkaEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminArayuz\5SeferYonetimi\FormSeferEkleme.resx">
+      <DependentUpon>FormSeferEkleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminArayuz\7Raporlamaİstatistikler\FormIsatistikler.resx">
+      <DependentUpon>FormIsatistikler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminArayuz\FormAdminArayuz1.resx">
+      <DependentUpon>FormAdminArayuz1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminArayuz\4OtobusYonetimi\FormOtobussEkleme.resx">
+      <DependentUpon>FormOtobussEkleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\1seferler\FormSatinAlinacakBiletleriListele.resx">
+      <DependentUpon>FormSatinAlinacakBiletleriListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\1seferler\FormSatinAlmaIslemi.resx">
+      <DependentUpon>FormSatinAlmaIslemi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\1seferler\FormSatinAlmaOnaylama.resx">
+      <DependentUpon>FormSatinAlmaOnaylama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\2OtobusumNerede\FormBiletSorgu.resx">
+      <DependentUpon>FormBiletSorgu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\4Giris\FormSifreYenileme.resx">
+      <DependentUpon>FormSifreYenileme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\1seferler\FormKoltukSecmeSayfasi.resx">
+      <DependentUpon>FormKoltukSecmeSayfasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\1seferler\FormSeferListeleme.resx">
+      <DependentUpon>FormSeferListeleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\2OtobusumNerede\haritaForm.resx">
+      <DependentUpon>haritaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\4Giris\kEpostaOnayForm.resx">
+      <DependentUpon>kEpostaOnayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\4Profilim\FormProfilim.resx">
+      <DependentUpon>FormProfilim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\4Profilim\ProfilimDetay\FormBiletDetay.resx">
+      <DependentUpon>FormBiletDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\4Profilim\ProfilimDetay\FormKullaniciBiletleri.resx">
+      <DependentUpon>FormKullaniciBiletleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\4Profilim\ProfilimDetay\FormKullaniciBilgierli.resx">
+      <DependentUpon>FormKullaniciBilgierli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\FormKullaniciArayuz.resx">
+      <DependentUpon>FormKullaniciArayuz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarBagaj.resx">
+      <DependentUpon>FormYarBagaj.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarBiletIslemleri.resx">
+      <DependentUpon>FormYarBiletIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarBiletSatisN.resx">
+      <DependentUpon>FormYarBiletSatisN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarBizeUlasin.resx">
+      <DependentUpon>FormYarBizeUlasin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\3Yardim\FormYardimS.resx">
+      <DependentUpon>FormYardimS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarIletisim.resx">
+      <DependentUpon>FormYarIletisim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarKoltukKatag.resx">
+      <DependentUpon>FormYarKoltukKatag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\3Yardim\YadimDetay\FormYarUrunVeHizmetler.resx">
+      <DependentUpon>FormYarUrunVeHizmetler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\FormYukleme.resx">
+      <DependentUpon>FormYukleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\4Giris\kGirisForm.resx">
+      <DependentUpon>kGirisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\4Giris\kKayitOlForm.resx">
+      <DependentUpon>kKayitOlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\1seferler\kSeferAramaFormu.resx">
+      <DependentUpon>kSeferAramaFormu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\1seferler\otobus40KoltukF.resx">
+      <DependentUpon>otobus40KoltukF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciArayuz\1seferler\otobus46Koltuk.resx">
+      <DependentUpon>otobus46Koltuk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koltukBos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AdminArayuz\2GöstergePaneli\" />
+    <Folder Include="AdminArayuz\6BiletYönetimi\" />
+    <Folder Include="AdminArayuz\8SehirVeTerminalYonetimi\" />
+    <Folder Include="AdminArayuz\9AyarlarVeDestek\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-check-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-reset-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-ticket-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exclamation-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koltukBos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 24 Nis 2025 20_54_52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 24 Nis 2025 20_45_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Başlıksız-SDSDDD1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-lock-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-reset-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-eye-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-closed-eye-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-male-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-female-64.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
