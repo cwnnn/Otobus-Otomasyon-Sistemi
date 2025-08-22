@@ -13,7 +13,7 @@ Bu proje, otobüs firmalarının bilet satış işlemlerini kolaylaştırmak, se
 
 ## 🛠️ Kullanılan Teknolojiler
 
-- 💻 **Backend:** visual studio 2022
+- 💻 **Backend:** visual studio 2022, C#
 - 🗃️ **Veritabanı:** MSSQL
 - 🎨 **Framework:** Guna.UI2
 
